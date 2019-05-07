@@ -1,0 +1,11 @@
+nav{
+    background-color: #202030;
+}
+nav a{
+    color: #fafaff;
+}
+
+nav a:hover{
+    color: #bfc0c0;
+    transition: ease 2s;
+}
