@@ -4,26 +4,57 @@
     <meta charset="UTF-8">
     <title>Johnny Ruiz</title>
     <!--bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--External Stylesheet-->
     <link rel="stylesheet" href="myWebpage.css">
 </head>
 <body>
 
 <!--Nav Bar-->
-<nav class="nav justify-content-center">
-    <a class="nav-link active my-auto" href="#">Active</a>
-    <a class="nav-link my-auto" href="#">Contact</a>
-    <a class="nav-link" href="#"><img src="https://xylusthemes.com/wp-content/uploads/2018/07/logo-facebook-rund.png" alt="" height="50px" width="50px"></a>
-    <a class="nav-link my-auto" href="#"><img src="http://icons.iconarchive.com/icons/social-media-icons/glossy-social/512/Linkedin-icon.png" alt="" height="44px" width="44px"></a>
+<nav id="navBar" class="nav justify-content-end py-4 w-100">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li id="ProjectsTab" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">Projects</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Github Link</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Project1</a>
+                <a class="dropdown-item" href="#">Project2</a>
+                <a class="dropdown-item" href="#">Project3</a>
+            </div>
+        </li>
+        <li  id="socialMediaTab" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">Social Media</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">LinkedIn</a>
+                <a class="dropdown-item" href="#">Facebook</a>
+                <a class="dropdown-item" href="#">Instagram</a>
+                <a class="dropdown-item" href="#">Codeup Alumni</a>
+            </div>
+        </li>
+
+    </ul>
 </nav>
+<!--Head-Shot-->
+<img id="headShot" src="img/headshot.jpeg" height="200" width="200" alt="headShot"/>
+
 
 <!--My local JQuery file-->
 <script src="jquery2.2.4.js"></script>
 <!--Local External JS-->
 <script src="myWebpage.js"></script>
 <!--Bootstrap-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

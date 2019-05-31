@@ -5,7 +5,16 @@ nav a{
     color: #fafaff;
 }
 
-nav a:hover{
-    color: #bfc0c0;
-    transition: ease 2s;
+#headShot{
+    position: fixed;
+    border-radius: 100%;
+    border: solid white 2px;
+    top: 3%;
+    left: 5%;
+}
+#ProjectsTab{
+    width: 46%;
+}
+#socialMediaTab{
+    width: 46%;
 }
